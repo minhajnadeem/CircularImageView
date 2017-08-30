@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.minhaj.circularimageview.MainActivity">
+
+
+    <com.example.minhaj.circularimageview.CustomImageView
+        xmlns:custom="http://schemas.android.com/apk/res/com.example.minhaj.circularimageview"
+        android:id="@+id/custom"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/image"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/layers"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
